@@ -4,9 +4,10 @@
 
 /**
  * main - Prints a random number and states whether
- * it is grater than five, less than six and not 0.
+ * it is grater than five, less than six and not zero
  * Return: Always 0.
  */
+
 int main(void)
 {
 	int n;
