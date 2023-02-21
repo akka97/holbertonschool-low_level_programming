@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet_x10
  *
- * Return: Always 0.
+ * No return
  */
 
 void print_alphabet_x10(void)
