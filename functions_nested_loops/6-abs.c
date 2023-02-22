@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * _abs
- * @n: positive number
- * Return: 1 and print + if n is greater than zero, 0 and print
- * 0 if n is zero, return -1 nad print - if n is less than zero
+ * _abs- computes the absolute value of an integer
+ * @i: positive number
+ * Return: zero
  */
 int _abs(int i)
 {
