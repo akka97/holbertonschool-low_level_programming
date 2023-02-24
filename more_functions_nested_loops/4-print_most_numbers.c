@@ -2,7 +2,7 @@
 /**
 * print_most_numbers - print numbers from zero to nine, expect two and four
 *
-* Return: Zero.
+* Return: 
 */
 void print_most_numbers(void)
 {
