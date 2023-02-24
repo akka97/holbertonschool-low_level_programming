@@ -1,13 +1,19 @@
 #include "main.h"
 /**
-* _isupper - check for uppercase character
-* @c: integer parameter
+* more_numbers - printing more numbers
+*
 * Return: Always one, otherwise zero.
 */
-int _isupper(int c)
+void more_numbers(void)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
+	int x, y;
 
-return (0);
+	for (x = 0; x < 10; x++)
+	{
+		for (y = 0; y < 15; y++)
+		{
+			_putchar(y + '0');
+		}
+		_putchar('\n');
+	}
 }
