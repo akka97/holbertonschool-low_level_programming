@@ -2,16 +2,16 @@
 /**
 * print_most_numbers - print numbers from zero to nine, expect two and four
 *
-* Return: 
+* Return: int
 */
 void print_most_numbers(void)
 {
-	int num;
+	int x;
 
-	for (num = 0; num < 10; num++)
+	for (x = 0; x < 10; x++)
 	{
-		if (num != 2 && num != 4)
-			_putchar(num);
+		if (x != 2 && x != 4)
+			_putchar(x+ 0);
 	}
 
 	_putchar('\n');
