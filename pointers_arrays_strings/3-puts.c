@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* _putchar - function that prints a string
-* @*str: parameter
+* _puts - function that prints a string
+* @str: parameter
 */
 void _puts(char *str)
 {
