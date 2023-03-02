@@ -1,17 +1,23 @@
 #include "main.h"
 /**
- * _strlen - return the length of a string
- * @s: counting string
- * Return: string length
+ * _strncat - function to copy a string
+ * @dest: first parameter
+ * @src: second parameter
+ * @n: third parameter
+ * Return: A string.
  */
-int_strlen(char *s)
+
+char *_strncat(char *dest, char *src, int n)
 {
-	int c = 0;
-
-	for (; *s != '\0'; s++)
+	int i;
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
-		c++;
+		dest[i] = src[i];
 	}
-
-	return (c);
+	for ( ; i < n; i++)
+	{
+		dest[i] = '\0';
+	}
+	
+	return (dest);
 }
