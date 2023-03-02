@@ -20,4 +20,6 @@ char *_strncat(char *dest, char *src, int n)
 	{	*ptr++ = *src++;
 		i++;
 	}
+
+	return (dest);
 }
