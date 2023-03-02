@@ -4,7 +4,6 @@
  * @s: counting string
  * Return: string length
  */
-
 int_strlen(char *s)
 {
 	int c = 0;
