@@ -3,12 +3,12 @@
 
 /**
  * *string_nconcat - Concatenates two strings using at most
- * an inputted number of bytes
+ * 			an inputted number of bytes
  * @s1: First string
  * @s2: Second string
  * @n: The maximum number of bytes of s2 concatenate to s1
  * Return: If the functions fails - NULL
- * otherwise a pointer to the concatenated space in memory.
+ *		 otherwise a pointer to the concatenated space in memory.
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -29,7 +29,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (con == NULL)
 		return (NULL);
 	j = 0;
-	for (i = 0; s1[i] != '\0'; i++)
+	for (i = 0; s1[i] != '\0'; i++, j++)
 		con[j] = s1[i];
 	for (i = 0; s2[i] != '\0' && i < n; i++, j++)
 		con[j] = s2[i];
