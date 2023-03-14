@@ -3,7 +3,7 @@
 
 /**
  * *string_nconcat - Concatenates two strings using at most
- * 			an inputted number of bytes
+ * an inputted number of bytes
  * @s1: First string
  * @s2: Second string
  * @n: The maximum number of bytes of s2 concatenate to s1
