@@ -2,7 +2,7 @@
 #define OBJECT_LIKE_MACRO_H
 /**
 * Header file that defines a macro named SIZE
-* as an abbrevation for the token 1024
+* Size as an abbrevation for the token 1024
 */
 
 
