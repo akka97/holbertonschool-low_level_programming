@@ -1,9 +1,9 @@
 #ifndef _VARIADIC_FUNCTIONS_H
-#define _VARIDAIC_FUNCTIONS_H
+#define _VARIADIC_FUNCTIONS_H
 
 #include <stdarg.h>
 /**
- * struct p_d - structure for printing data
+ * struct printer - structure for printing data
  * @type: format type
  * @print: the function for printing
  */
