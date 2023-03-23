@@ -3,8 +3,10 @@
 /**
  * sum_them_all - function that returns sum of all param
  * @n: unsigned integer
- * @...: variable
- * Return: sum of all parameter, otherwise zero
+ * @...: variable number of parameters to calculate sum
+ *
+ * Return: If n == 0 - 0.
+ * 	Otherwise - the sum of all parameters
  */
 
 int sum_them_all(const unsigned int n, ...)
