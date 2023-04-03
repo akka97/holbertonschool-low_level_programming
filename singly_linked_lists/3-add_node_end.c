@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 /**
- * add_node_ - add node to the end of list
+ * add_node_end - add node to the end of list
  * @str: list element to add
  * @head: where to add str
  * Return: new node
