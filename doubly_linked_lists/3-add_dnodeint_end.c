@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stddef.h>
 /**
- * add_dnodeint - function that prints list int
+ * add_dnodeint_end - function that prints list int
  * @head: list to print
  * @n: number
  * Return: length of list
