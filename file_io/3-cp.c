@@ -1,11 +1,10 @@
 #include "main.h"
 /**
- * main - entry point 
+ * main - entry point
  * @argc: number of arguments
  * @argv: array
  * Return: 1 success, 0 if it fails
  */
-
 int main(int argc, char **argv)
 {
 	if (argc != 3)
@@ -16,7 +15,7 @@ int main(int argc, char **argv)
 	if (argv[1] == NULL)
 	{
 		dprintf(STDERR_FILENO, "Error: Cant't read from file %s\n", argv[1]);
-		exit (98);
+		exit(98);
 	}
 	cp(argv[1], argv[2]);
 
@@ -35,13 +34,13 @@ void cp(char *file_from, char *file_to)
 	file_src = open(file_from, O_RDONLY);
 	if (file_src == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_to);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		exit(98);
 	}
 	file_dest = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (file_dest == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_from);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 		exit(99);
 	}
 	read_src = read(file_src, content, 1024);
@@ -75,7 +74,7 @@ void cp(char *file_from, char *file_to)
 void cls(int file)
 {
 	int cls_f;
-	
+
 	cls_f = close(file);
 
 	if (cls_f == -1)
