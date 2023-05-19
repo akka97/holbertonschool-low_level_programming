@@ -1,6 +1,5 @@
 #ifndef SEARCH_ALGOH_H
 #define SEARCH_ALGOS_H
-
 #include <stdio.h>
 #include <math.h>
 
